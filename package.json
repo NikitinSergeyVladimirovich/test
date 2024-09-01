@@ -1,0 +1,28 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev --host 0.0.0.0",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxtjs/recaptcha": "^1.1.2",
+    "@prisma/nuxt": "^0.0.35",
+    "cookie": "^0.6.0",
+    "cookie-universal-nuxt": "^2.2.2",
+    "h3": "^1.12.0",
+    "nuxt": "^3.13.0",
+    "nuxt-windicss": "^3.0.1",
+    "uuid": "^10.0.0",
+    "vue": "latest"
+  },
+  "devDependencies": {
+    "@prisma/client": "^5.19.0",
+    "@types/uuid": "^10.0.0",
+    "prisma": "^5.19.0"
+  }
+}
