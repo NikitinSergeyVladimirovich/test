@@ -6,6 +6,7 @@ make up
 
 make migrate
 
+# Запуск frontend
 make run 
 
 or 
