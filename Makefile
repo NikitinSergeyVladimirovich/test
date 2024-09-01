@@ -8,6 +8,11 @@ rm:
 	&& docker-compose rm \
 
 up:
-	docker-compose -f docker-compose.yml up --force-recreate && \
-	npm i && \
+	docker-compose -f docker-compose.yml up --force-recreate
+
+migrate: 
 	npx prisma migrate dev --name init
+
+run:
+	npm i && \
+	npm run dev
